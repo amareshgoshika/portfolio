@@ -61,8 +61,8 @@ const Skills = ({ darkMode }) => {
           <span className="h-[1.1px] right-0 absolute w-[90%] bg-gray-300 block"></span>
         </div>
         {/* content*/}
-        <div className="flex md:flex-col ">
-          <div className="left flex-1 w-full">
+        <div className="flex md:flex-col w-full sm:w-1/2 exsm:w-1/2">
+          <div className="left flex-1 w-full sm:w-1/2 exsm:w-1/2">
             <div
               data-aos="zoom-in"
               className="progress flex items-center h-[100%] justify-end md:justify-center"
@@ -84,7 +84,7 @@ const Skills = ({ darkMode }) => {
               </div>
             </div>
           </div>
-          <div className="left flex-1 w-full">
+          <div className="left flex-1 w-full sm:w-1/2 exsm:w-1/2">
             <div
               data-aos="zoom-in"
               className="progress flex items-center h-[100%] justify-end md:justify-center"
