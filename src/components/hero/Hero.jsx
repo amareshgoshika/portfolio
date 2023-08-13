@@ -8,7 +8,8 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../assets/Resume.pdf";
+import resume from "../../assets/Resume.pdf";
+import Subject from "../../assets/Subject.png";
 
 
 const Hero = () => {
@@ -52,7 +53,7 @@ const Hero = () => {
               <span> Hire Me</span>
             </a>
             <a
-              href="link"
+              href={resume}
               className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
               download
             >
@@ -68,13 +69,13 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="">
+                <a href="https://github.com/amareshgoshika">
                   {" "}
                   <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://www.linkedin.com/in/amareshgoshika/">
                   {" "}
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
                 </a>
@@ -105,8 +106,8 @@ const Hero = () => {
             <img
             data-aos="fade-up"
               className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src='https://i.postimg.cc/pTn61Gr1/Untitled-design222-modified.png'
-              // src={mine}
+//               src='https://i.postimg.cc/pTn61Gr1/Untitled-design222-modified.png'
+              src={Subject}
               alt="mine"
             />
             <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
