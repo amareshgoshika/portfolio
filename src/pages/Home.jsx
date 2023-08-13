@@ -21,7 +21,6 @@ const Home = () => {
       <Hero darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Skills darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Summary darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-{/*       <Work darkMode={darkMode} toggleDarkMode={toggleDarkMode} /> */}
       <Education darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Experience darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Projects darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
