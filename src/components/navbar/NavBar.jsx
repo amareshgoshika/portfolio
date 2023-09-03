@@ -10,19 +10,19 @@ const navItems = [
   },
   {
     id: 1,
-    name: "skills",
+    name: "wept",
   },
   {
     id: 2,
-    name: "summary",
+    name: "warp",
   },
   {
     id: 3,
-    name: "experience",
+    name: "sarees",
   },
   {
     id: 4,
-    name: "contact",
+    name: "looms",
   },
 ];
 
@@ -105,12 +105,6 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
                 </a>
               </li>
             ))}
-            <a
-              href=""
-              className="bg-transparent text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-yellow-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
-            >
-              HIRE ME
-            </a>
           </ul>
         </div>
       </nav>
