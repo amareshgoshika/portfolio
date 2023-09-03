@@ -66,7 +66,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             to="/"
             className="text-3xl font-bold sm:text-3xl text-white"
           >
-            Amaresh Goshika.
+            ikkath
           </Link>
         </div>
         <div
