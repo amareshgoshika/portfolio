@@ -10,7 +10,7 @@ const SkillBox = ({ saree, skill }) => {
     >
     <img
       data-aos="fade-up"
-        className=" h-[80%]  w-[90%] object-cover md:h-[95%] md:m-auto sm:m-0"
+        className=" h-[80%] w-[90%] object-cover md:h-[80%] md:w-[90%] sm:h-[80%] sm:w-[90%]"
         src={saree}
         alt="mine"
       />
