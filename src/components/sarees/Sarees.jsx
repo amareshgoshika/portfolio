@@ -39,32 +39,32 @@ const Sarees = ({ darkMode }) => {
             <div className="first2 flex flex-col gap-10">
               <SareeBox
                 saree={Saree1}
-                skill={"Class Attendance"}
+                skill={"Pochampally"}
               />
               <SareeBox
                 saree={Saree1}
-                skill={"MSTD"}
+                skill={"Dharmavaram"}
               />
-{/*             </div> */}
-{/*             <div className="first2 flex flex-col gap-10"> */}
-{/*               <SareeBox */}
-{/*                 logo={<BiFoodMenu />} */}
-{/*                 skill={"Hungry App"} */}
-{/*               /> */}
-{/*               <SareeBox */}
-{/*                 logo={<FaTaxi />} */}
-{/*                 skill={"Wrong Parker"} */}
-{/*               /> */}
-{/*             </div> */}
-{/*             <div className="first2 flex flex-col gap-10"> */}
-{/*               <SareeBox */}
-{/*                 logo={<GiArchiveRegister />} */}
-{/*                 skill={"Stud Login Reg"} */}
-{/*               /> */}
-{/*               <SareeBox */}
-{/*                 logo={<GiArtificialIntelligence />} */}
-{/*                 skill={"Ai Adda"} */}
-{/*               /> */}
+            </div>
+            <div className="first2 flex flex-col gap-10">
+              <SareeBox
+                saree={Saree1}
+                skill={"Kanchi"}
+              />
+              <SareeBox
+                saree={Saree1}
+                skill={"Uppada"}
+              />
+            </div>
+            <div className="first2 flex flex-col gap-10">
+              <SareeBox
+                saree={Saree1}
+                skill={"Cotton"}
+              />
+              <SareeBox
+                saree={Saree1}
+                skill={"Musraised"}
+              />
             </div>
           </div>
         </div>

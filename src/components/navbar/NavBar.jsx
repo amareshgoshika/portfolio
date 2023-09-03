@@ -18,6 +18,10 @@ const navItems = [
   },
   {
     id: 3,
+    name: "tie & die",
+  },
+  {
+    id: 4,
     name: "sarees",
   },
   {
